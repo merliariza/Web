@@ -1,0 +1,58 @@
+header {
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    color: white;
+}
+
+h1 {
+    vertical-align: middle;
+}
+
+.menú {
+    background-color: rgba(135, 143, 255, 0.801);
+    align-items: right;
+    text-align: right;
+    width: 100%;
+    height: 30px;
+}
+
+.hero{
+   height: 100vh;
+   background-image: linear-gradient(to top, #3b42c58a 0%, #a981bbcb 50%, #ffc9a9c5 100%), url(../images/imagen.png);
+   object-fit: contain;
+}
+
+a {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(66, 64, 64, 0.822);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+.inicio {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    object-fit: contain;
+}
+
+.acerca {
+    height: 100vh;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    background-image: linear-gradient(to bottom, #d892f1 0%, #a551ff 29%, #ff71a0 67%, #fbafac 100%);
+    object-fit: contain;
+}
+
+.contacto {
+    height: 100vh;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    object-fit: contain;
+}
+
